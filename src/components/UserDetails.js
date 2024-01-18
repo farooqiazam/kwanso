@@ -32,7 +32,6 @@ const UsersDetails = () => {
                     <Tab label="DOB" {...a11yProps(2)} />
                     <Tab label="Address" {...a11yProps(3)} />
                     <Tab label="Phone" {...a11yProps(4)} />
-                    <Tab label="Lock" {...a11yProps(5)} />
                 </Tabs>
             </Box>
             <Avatar alt={"profile image"}
@@ -53,9 +52,6 @@ const UsersDetails = () => {
             </CustomTabPanel>
             <CustomTabPanel value={value} index={4}>
                 {phone}
-            </CustomTabPanel>
-            <CustomTabPanel value={value} index={5}>
-                Lock
             </CustomTabPanel>
         </Box>
     )
